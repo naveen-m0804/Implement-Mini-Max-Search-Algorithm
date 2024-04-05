@@ -289,6 +289,8 @@ class Game:
                 (m, px, py) = self.max()
                 self.current_state[px][py] = 'O'
                 self.player_turn = 'X'
+```
+```
 def main():
     g = Game()
     g.play()
